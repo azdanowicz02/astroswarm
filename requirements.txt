@@ -1,0 +1,11 @@
+# Core
+numpy>=1.24
+pyyaml>=6.0
+matplotlib>=3.7
+
+# Optional extensions
+# networkx>=3.0        # communication-connectivity metrics (Phase 4)
+# cma>=3.3             # CMA-ES for evolutionary optimization (Phase 6)
+
+# Dev
+# pytest>=7.0

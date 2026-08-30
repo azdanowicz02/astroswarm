@@ -1,0 +1,40 @@
+
+
+
+swarm:
+  n_spacecraft: 8
+  comms_radius: 800.0
+
+  min_altitude: 150.0
+  max_altitude: 1200.0
+
+  decision_interval: 20
+
+  inclination_spread: 0.0
+
+
+
+
+
+
+
+decision_weights:
+  w_coverage: 1.0
+  w_quality: 0.5
+  w_pheromone: 0.8
+  w_cost: 0.2
+  w_neighbor: 0.3
+
+
+pheromone:
+  deposit: 1.0
+  evaporation: 0.02
+  diffusion: 0.0
+
+
+maneuvers:
+  altitude_step: 150.0
+  phase_step: 0.5
+  inclination_step: 0.1
+  lookahead_steps: 200
+  lookahead_stride: 5

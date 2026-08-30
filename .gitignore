@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Results (generated)
+results/runs/
+results/figures/
+*.pkl
+
+# Notebooks / OS / IDE
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/

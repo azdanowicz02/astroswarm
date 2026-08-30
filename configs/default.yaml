@@ -1,0 +1,35 @@
+
+
+
+
+
+
+
+
+
+seed: 0
+
+asteroid:
+  radius: 469700.0
+  spin_rate: 1.923e-4
+  mu: 6.263e10
+  n_cells: 8000
+
+sensor:
+  half_angle: 0.20
+  quality_ref_alt: 30000.0
+
+  max_alt: 400000.0
+
+simulation:
+  dt: 20.0
+  t_end: 400000.0
+  target_coverage: 0.95
+
+
+
+orbit:
+  altitude: 100000.0
+  inclination: 1.40
+  raan: 0.0
+  phase0: 0.0
